@@ -1,0 +1,984 @@
+html{
+  width: 100vw;
+  height: 100vh;
+}
+body {
+    margin: 0;
+  }
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .main-container {
+    width: 100vw;
+    height: 110vh;
+    
+  }
+
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh ;
+    position:relative;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out;
+    animation: fadeIn 2s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .basic-info{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+  }
+  .basic-info img{
+    height: 60px;
+    width: 60px;
+  }
+
+  .Rest-info{
+    margin-top: 20px;
+    size: 60px;
+    color: wheat;
+  }
+
+  #clock{
+    height: 30px;
+    width: 30px;
+    margin-left: 25px;
+    margin-top: 17px;
+  }
+
+  .Rest-info1, .Rest-info2, .Rest-info3{
+    max-height: 20px;
+    margin-top: 20px;
+    color: wheat;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+
+  .Rest-info1:hover{
+    color: white;
+  }
+  .Rest-info2:hover{
+    color: white;
+  }
+  .Rest-info3:hover{
+    color: white;
+  }
+
+  .Rest-info3{
+    margin-right: 6px;
+  }
+
+  #image2{
+    height: 25px;
+    width: 25px;
+    margin-left: 420px;
+    margin-top: 17px;
+  }
+
+  #image3{
+    height: 25px;
+    width: 25px;
+    margin-left: 30px;
+    margin-top: 17px;
+  }
+
+  .nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+  }
+
+  .menu-bar{
+    margin-top: 47px;
+  }
+
+  .logo-title{
+    display: flexbox;
+  }
+
+  #logo-image{
+    height: 185px;
+    width: 185px;
+    margin-top: -40px;
+    margin-left: 40px;
+  }
+
+  .details{
+    color: wheat;
+    text-decoration: none;
+    margin-inline: 17px;
+  }
+
+  .details:hover{
+    color: white;
+    text-decoration: underline;
+    color: white;
+  }
+  .find-table{
+    margin-top: 28px;
+  }
+
+  #Button-id{
+    font-weight: bold;
+    background-color: wheat;
+    height: 60px;
+    width: 200px;
+    transition: width 2s;
+  }
+
+  #Button-id:hover{
+    width: 215px;
+    background-color: black;
+    color: wheat;
+  }
+  .hamburger{
+    margin-top: 30px;
+    display: none;
+
+    padding-right: 30px;
+  }
+
+  #base-id{
+    font-size: 25px;
+    color: wheat;
+    margin-bottom: 25px;
+    margin-left: 10px;
+  }
+
+  .separator-img{
+    height: 20px;
+    margin-bottom: -20px;
+    margin-left: 47px;
+  }
+
+  .hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #main-desc{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-size: 90px;
+    color: azure;
+  }
+
+  #main-desc, #base-id, .separator-img, #desc2, #button2{
+    animation: 5s anim-lineUp ease-out infinite;
+  }
+
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  
+  #desc2{
+    margin-left: 30px;
+    color: azure;
+    font-size: 28px;
+  }
+
+  #button2{
+    margin-top: 40px;
+    font-weight: bold;
+    background-color: wheat;
+    height: 60px;
+    width: 200px;
+    transition: width 2s;
+    margin-left: 60px;
+  }
+
+  #button2:hover{
+    width: 225px;
+    background-color: black;
+    color: wheat;
+  }
+
+  .mega-div3, .mega-div2{
+    display: none;
+  }
+
+  .mega-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    min-height: 790px;
+    min-width: 100px;
+  }
+
+  #mega-div-text1, .mega1-heading, #small-desc, #small-desc1{
+    color: white;
+  }
+
+  .maga-div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #mega-div-text1{
+    align-items: center;
+    margin-top: 30px;
+    color: wheat;
+  }
+
+  .mega1-img1{
+    margin-top: 25px;
+    margin-right: 10px;
+    align-items: center;
+    height: 15px;
+  }
+
+  .mega1-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mega1-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sub-mega2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .Appetizers{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+  }
+
+  .view-menu{
+    color: wheat;
+    text-decoration: none;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  .mega1-heading{
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .mega-div0, .mega-div4{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mega1-img2{
+    transition: all 0.3s linear 0s;
+    margin-top: 20px;
+  }
+
+  .mega0-img2, .mega4-img2{
+    margin-top: 20px;
+    transition: all 0.3s linear 0s;
+  }
+  .mega4-img2:hover{
+    transform: scale(1.1);
+  }
+  .mega1-img2:hover{
+    transform: scale(1.1);
+  }
+  .mega0-img2:hover{
+    transform: scale(1.1);
+  }
+
+  .view-menu:hover{
+    color: white;
+  }
+
+  .Appetizers:hover{
+    color: wheat;
+  }
+
+  .section3{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    min-height: 800px;
+    background-color: rgb(25, 25, 25);
+    background-image: url(../assets/images/shape-5.png);
+  }
+
+  .sub-section1{
+    min-width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #section3-txt1{
+    font-size: 18px;
+    margin-bottom: 17px;
+    color: wheat;
+  }
+
+  #section3-title{
+    text-align: center;
+    font-size: 65px;
+    margin-top: 25px;
+    color: white;
+  }
+
+  #section3-subtxt{
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #call{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+    font-weight: bolder;
+  }
+
+  #book-number{
+    text-align: center;
+    margin-top: 20px;
+    color: wheat;
+    font-size: 27px;
+  }
+
+  .section3-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #section3-button{
+    color: wheat;
+    margin-top: 35px;
+    border: 3px solid wheat;
+    width: 200px;
+    height: 64px;
+    background-color: rgb(25, 25, 25);
+  }
+
+  #section3-button:hover{
+    font-weight: bolder;
+    background-color: wheat;
+    color: rgb(25, 25, 25);
+  }
+
+  .sub-section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section3-mainimg{
+    position: relative;
+    display: flex;
+    max-width: 75%;
+    max-height: 75%;
+    background-repeat: no-repeat;
+    /* height: 8vh;
+    width: 55vw; */
+  }
+
+  .section4{
+    min-height: 800px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .section4-ls{
+    display: flex;
+    width: 50%;
+  }
+
+  .ls-special{
+    width: 100%;
+  }
+  
+  .section4-rs{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .big-rs{
+    display: flex;
+  }
+
+  .rs-div11{
+    margin-left: 80px;
+  }
+
+  .rs-div1{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .rs-div12{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .txt1-121{
+    color: wheat;
+  }
+
+  .img1-11{
+    height: 45px;
+  }
+
+  .rs-div2{
+    display: flex;
+  }
+
+  .img2-11{
+    margin-top: 7px;
+    margin-bottom: 30px;
+  }
+
+  #rs-div2-heading{
+    font-size: 48px;
+    color: white;
+  }
+
+  #res-div3-para{
+    margin-top: 20px;
+    font-size: 21px;
+    color: white;
+  }
+
+  .rs-div4{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .rs-div4-price1{
+    padding-top: 7px;
+    font-size: 21px;
+    color: rgb(97, 96, 96);
+  }
+
+  .rs-div4-price2{
+    color: wheat;
+    font-size: 25px;
+  }
+
+  #div4-butt{
+    margin-top: 70px;
+    color: wheat;
+    margin-top: 35px;
+    border: 3px solid wheat;
+    width: 200px;
+    height: 64px;
+    background-color: rgb(0, 0, 0);
+  }
+
+  #div4-butt:hover{
+    font-weight: bolder;
+    background-color: wheat;
+    color: rgb(25, 25, 25);
+  }
+
+  .div4-butt2{
+    display: none;
+  }
+
+  .menu-div{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(25, 25, 25);
+    background-image: url(../assets/images/shape-5.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 900px;
+  }
+
+  .menu-div1{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+  }
+
+  .textsep{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  #menu-heading,#specialSelection{
+    color: white;
+  }
+
+  #menu-heading{
+    margin-bottom: 80px;
+  }
+
+  .menu-div1-sep{
+    height: 20px;
+  }
+
+  .menu-div2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .menu-div21{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .menu-item1{
+    gap: 25px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .item-desc1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .item1-desc1{
+    display: flex;
+    flex-direction: row;
+    gap: 105px;
+  }
+
+  .item2-desc2{
+    display: flex;
+    flex-direction: row;
+    gap: 160px;
+  }
+
+  .item3-desc3{
+    display: flex;
+    flex-direction: row;
+    gap: 188px;
+  }
+
+  .item4-desc4{
+    display: flex;
+    flex-direction: row;
+    gap: 190px;
+  }
+
+  .item5-desc5{
+    display: flex;
+    flex-direction: row;
+    gap: 163px;
+  }
+
+  .item6-desc6{
+    display: flex;
+    flex-direction: row;
+    gap: 188px;
+  }
+
+  .warpper-item{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  #item-img1{
+    height: 90px;
+  }
+
+  #menu-name, #seasonal, #menu-price, #contents{
+    color: white;
+  }
+
+  #menu-name{
+    font-size: 20px;
+  }
+
+  #menu-price{
+    font-size: 25px;
+    color:wheat;
+  }
+
+  #seasonal{
+    padding: 3px;
+    background-color: wheat;
+    color: black;
+  }
+
+  .vl {
+    border-left: 1.5px solid rgb(255, 255, 255);
+    height: 500px;
+  }
+
+  .plpl{
+    color: aquamarine;
+  }
+
+  #timing-info{
+    color: white;
+  }
+
+  #menu-hilight{
+    color: wheat;
+  }
+
+  .menu-div3{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+  }
+
+  #menu-hilight{
+    text-align:end;
+  }
+  #timing-info{
+    font-size: 20px;
+  }
+
+  #deco{
+    color: wheat;
+  }
+
+  #menu-button{
+    color: wheat;
+    margin-bottom: 35px;
+    border: 3px solid wheat;
+    width: 200px;
+    height: 64px;
+    background-color: rgb(25, 25, 25);
+  }
+
+  #menu-button:hover{
+    font-weight: bolder;
+    background-color: wheat;
+    color: rgb(25, 25, 25);
+  }
+
+  #item-img1:hover{
+    background-color: rgb(225, 191, 149);
+    opacity: 1;
+  }
+
+  .review-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/images/testimonial-bg.jpg);
+    min-height: 600px;
+    gap: 30px;
+  }
+
+  #person-photo{
+    margin-bottom: 30px;
+    border-radius: 50%;
+  }
+
+  .actual-review{
+    display: flex;
+    flex-direction: column;
+  }
+  #quotes, #actual-review{
+    font-size: 45px;
+    color: white;
+  }
+
+  .groupby{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #actual-review{
+    text-align: center;
+  }
+
+  
+  #person-name{
+    font-size: 20px;
+    color: wheat;
+  }
+
+  #menu{
+    border-color: transparent;
+    background-color: transparent;
+  }
+  #HOME{
+    border-color: transparent;
+    background-color: transparent;
+  }
+  #ABOUTUS{
+    border-color: transparent;
+    background-color: transparent;
+  }
+  #CHEFS{
+    border-color: transparent;
+    background-color: transparent;
+  }
+  #CONTACT{
+    border-color: transparent;
+    background-color: transparent;
+  }
+
+  .reservation-div{
+    background-image: url(../assets/images/shape-5.png);
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    min-height: 700px;
+    background-color: rgb(25, 25, 25);
+  }
+
+  .reservation-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    gap: 35px;
+    min-width: 450px;
+    min-height: 530px;
+  }
+
+  .form-heading1{
+    align-items: center;
+    justify-content: center;
+  }
+  .form-heading{
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+  .form-heading2{
+    align-items: center;
+    justify-content: center;
+  }
+  #form-heding1{
+    color: white;
+  }
+
+  #form-heading2{
+    color: white;
+    font-size: 15px;
+  }
+
+  #changes{
+    color: wheat;
+  }
+
+  .form-heading{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-info{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #name{
+    font-size: 12px;
+    color: wheat;
+    border-color: transparent;
+    background-color: rgb(25, 25, 25);
+    height: 40px;
+    width: 170px;
+  }
+
+  #phone{
+    font-size: 12px;
+    color: wheat;
+    border-color: transparent;
+    background-color: rgb(25, 25, 25);
+    height: 40px;
+    width: 170px;
+  }
+
+  #persons{
+    font-size: 13px;
+    background-color: rgb(25, 25, 25);
+    color: wheat;
+    height: 40px;
+    width: 108px;
+    border-color: transparent;
+  }
+
+  #date{
+    font-size: 13px;
+    background-color: rgb(25, 25, 25);
+    color: wheat;
+    height: 40px;
+    width: 105px;
+    border-color: transparent;
+  }
+
+  #time{
+    font-size: 13px;
+    background-color: rgb(25, 25, 25);
+    color: wheat;
+    height: 40px;
+    width: 112px;
+    border-color: transparent;
+  }
+  
+  #message{
+    font-size: 13px;
+    background-color: rgb(25, 25, 25);
+    color: wheat;
+    height: 90px;
+    width: 360px;
+    border-color: transparent;
+  }
+
+  #reg-submit{
+    font-size: 13px;
+    background-color: wheat;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 360px;
+    border-color: transparent;
+  }
+
+  #reg-submit:hover{
+    font-weight: bolder;
+    background-color:rgb(25, 25, 25) ;
+    color: wheat;
+  }
+
+  .reservation-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/images/form-pattern.png);
+    gap: 35px;
+    min-width: 310px;
+    min-height: 530px;
+  }
+
+  .booking-req{
+    gap: 280px;
+    align-items: center;
+    justify-content: center;
+  }
+  .reg-request{
+    align-items: center;
+    justify-content: center;
+  }
+
+  #reg-contactus{
+    color: white;
+  }
+
+  #reg-request{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+  }
+
+  #reg-number{
+    text-align: center;
+    font-size: 25px;
+    color: wheat;
+  }
+
+  #reg-location1{
+    text-align: center;
+    color: white;
+  }
+
+  #reg-address{
+    text-align: center;
+    text-align: center;
+    color: rgb(96, 96, 96);
+  }
+
+  #reg-time{
+    text-align: center;
+    color: white;
+  }
+
+  #reg-timeDur{
+    color: rgb(96, 96, 96);
+  }
+
+  #reg-time2{
+    text-align: center;
+    color: white;
+  }
+
+  #reg-timeDur2{
+    color: rgb(96, 96, 96);
+  }
+

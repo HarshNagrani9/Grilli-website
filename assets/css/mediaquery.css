@@ -1,0 +1,864 @@
+
+@media screen and (max-width:1416px){
+    .Rest-info1, .Rest-info, .location-img, #clock{
+        display: none;
+      }
+
+      .Rest-info2, .Rest-info3, #image2, #image3{
+        align-items: center;
+      }
+
+      #image2{
+        margin-left: 550px;
+      }
+      .mega-div3, .mega-div2{
+      display: none;
+    }
+
+    .mega-div{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background-color: rgb(0, 0, 0);
+      min-height: 850px;
+      min-width: 100px;
+    }
+
+    #mega-div-text1, .mega1-heading, #small-desc, #small-desc1{
+      color: white;
+    }
+
+    .maga-div1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #mega-div-text1{
+      align-items: center;
+      margin-top: 30px;
+      color: wheat;
+    }
+
+    .mega1-img1{
+      margin-top: 25px;
+      margin-right: 10px;
+      align-items: center;
+      height: 15px;
+    }
+
+    .mega1-title{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .mega1-desc{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .sub-mega2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .Appetizers{
+      margin-top: 20px;
+      text-decoration: none;
+      color: white;
+      font-size: 30px;
+    }
+  
+    .view-menu{
+      color: wheat;
+      text-decoration: none;
+      margin-bottom: 30px;
+      margin-top: 20px;
+      font-size: 15px;
+    }
+
+    .Appetizers, .view-menu:hover{
+      color: white;
+    }
+
+    .mega1-heading{
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+
+    .mega-div0, .mega-div4{
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .mega1-img2{
+      margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:1026px) {
+    .Rest-info2, .Rest-info3, #image2, #image3{
+        align-items: center;
+      }
+
+      .nav-bar{
+        justify-content: space-between;
+      }
+      #image2{
+        margin-left: 350px;
+      }
+      .hamburger{
+        display:block;
+        margin-top: 34px;
+        /* margin-right: 95px; */
+      }
+      #Button-id{
+        display: none;
+      }
+    .details{
+        display: none;
+    }
+
+    .mega-div3, .mega-div2{
+      display: none;
+    }
+
+    .mega-div{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background-color: rgb(0, 0, 0);
+      min-height: 850px;
+      min-width: 100px;
+    }
+
+    #mega-div-text1, .mega1-heading, #small-desc, #small-desc1{
+      color: white;
+    }
+
+    .maga-div1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #mega-div-text1{
+      align-items: center;
+      margin-top: 30px;
+      color: wheat;
+    }
+
+    .mega1-img1{
+      margin-top: 25px;
+      margin-right: 10px;
+      align-items: center;
+      height: 15px;
+    }
+
+    .mega1-title{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .mega1-desc{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .sub-mega2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .Appetizers{
+      margin-top: 20px;
+      text-decoration: none;
+      color: white;
+      font-size: 30px;
+    }
+  
+    .view-menu{
+      color: wheat;
+      text-decoration: none;
+      margin-bottom: 30px;
+      margin-top: 20px;
+      font-size: 15px;
+    }
+
+    .view-menu:hover{
+      color: white;
+    }
+
+    .mega1-heading{
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+
+    .mega-div0, .mega-div4{
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .mega1-img2{
+      margin-top: 20px;
+    }
+
+    #section3-title{
+      font-size: 50px;
+    }
+
+    #section3-subtxt{
+      font-size: 16px;
+    }
+
+    #call{
+      font-size: 18px;
+    }
+
+    #book-number{
+      font-size: 24px;
+    }
+
+    #section3-button{
+      width: 180px;
+    height: 58px;
+    }
+
+    .sub-section2{
+      max-width: 55%;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .section3-mainimg{ 
+      height: 60vh;
+      width: 60vw;
+    }
+
+    .section4{
+      min-height: 550px;
+    }
+
+    .section4-rs{
+      padding-top: 100px;
+    }
+
+    .rs-div1{
+      gap: 30px;
+    }
+
+    .rs-div12{
+      gap: 10px;
+    }
+
+    #rs-div2-heading{
+      font-size: 38px;
+      color: white;
+    }
+
+    #res-div3-para{
+      margin-top: 18px;
+      font-size: 17px;
+      color: white;
+    }
+}
+
+@media screen and (max-width:868px){
+    #Button-id{
+        display: none;
+    }
+
+    #button2{
+      margin-right: 55px;
+    }
+
+    .maga-div1, .mega-div0{
+      display: none;
+    }
+ 
+    .mega-div{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background-color: rgb(0, 0, 0);
+      min-height: 700px;
+      min-width: 100px;
+    }
+
+    .mega-div2, .mega-div3{
+
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .Appetizers{
+      margin-top: 20px;
+      text-decoration: none;
+      color: white;
+      font-size: 30px;
+    }
+  
+    .view-menu{
+      color: wheat;
+      text-decoration: none;
+      margin-bottom: 30px;
+      margin-top: 20px;
+      font-size: 15px;
+    }
+
+    .view-menu:hover{
+      color: white;
+    }
+
+    .section3{
+      flex-direction: column;
+    }
+
+    #section3-txt1{
+      margin-top: 25px;
+    }
+
+    #section3-button{
+      margin-bottom: 35px;
+    }
+
+    .section3-mainimg{
+      width: 60vh;
+      height: 60vw;
+      margin-bottom: 90px;
+      margin-left: 190px;
+    }
+
+    .section4{
+      flex-direction: column;
+    }
+
+    .big-rs{
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding-right: 90px;
+    }
+
+    .section4-ls{
+      height: 10%;
+      width: 100%
+    }
+
+    .section4-rs{
+      width: 100%;
+    }
+
+    .rs-div3{
+      align-items: center;
+      justify-content: center;
+    }
+
+    #res-div3-para{
+      text-align: center;
+    }
+
+    #div4-butt{
+      align-items: center;
+      margin-bottom: 170px;
+    }
+
+    .vl{
+      display: none;
+    }
+
+    .menu-div2{
+      flex-direction: column;
+    }
+
+    .menu-div23{
+      margin-top: 25px;
+    }
+
+    #actual-review{
+      font-size: 35px;
+    }
+
+    /* .item1-desc1{
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .item2-desc2{
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .item3-desc3{
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .item4-desc4{
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .item5-desc5{
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .item6-desc6{
+      display: flex;
+      flex-direction: row;
+    } */
+
+
+    /* .mega-div2{
+      display: none;
+    }
+    
+    .mega-div{
+      display: flex;
+      flex-direction: row;
+      background-color: rgb(0, 0, 0);
+      min-height: 1000px;
+      min-width: 100px;
+      gap: 30px;
+    }
+    .mega-div0{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .mega1-img2{
+      margin-top: 30px;
+    }
+
+    .Appetizers{
+      margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    }
+
+    .view-menu{
+    color: wheat;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 15px;
+    }
+
+    .mega-div1, .mega-div3{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .sub-mega1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .sub-mega2{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .mega1-title{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #mega-div-text1{
+      color: white;
+    }
+
+    #small-desc1, #small-desc{
+      color: white;
+    }
+
+    .mega1-heading{
+      color: white;
+    }
+
+    /* .mega0-img2, .mega3-img2{
+      height: 200px;
+      margin-top: 300px;
+    } */
+    /* .mega1-img1{
+      margin-top: 25px;
+      margin-bottom: 25px;
+      margin-right: 10px;
+      align-items: center;
+      height: 15px;
+    }
+    #mega-div-text1{
+      margin-top: 30px;
+    }
+    .mega1-heading{
+      margin-left: 40px;
+      margin-bottom: 20px;
+    }
+    #mega-div-text1{
+      margin-left: 20px;
+    }
+    .mega1-desc{
+      align-items: center;
+    }  */
+
+    .mega-div4{
+      display: none;
+    }
+}
+@media screen and (max-width:431px){
+  *{
+
+margin: 0;
+padding: 0 ;
+}
+  .Rest-info2, .Rest-info3, #image2, #image3{
+      display: none;
+  }
+
+  #logo-image{
+    height: 140px;
+    width: 160px;
+    padding-top: 20px;
+  }
+
+  #hama2{
+    height: 40px;
+    width: 40px;
+    margin-top: -10px;
+  }
+
+  #base-id{
+    font-size: 18px;
+    margin-left: 30px;
+  }
+  .separator-img{
+    height: 15px;
+  }
+
+  #main-desc{
+    margin-top: 20px;
+    font-size: 40px;
+  }
+
+  #desc2{
+    font-size: 14px;
+    margin-top: 17px;
+  }
+
+  #button2{
+    height: 60px;
+    width: 160px;
+    margin-right: 55px;
+    transition: width 2s;
+  }
+  #button2:hover{
+    width: 190px;
+  }
+
+  .mega-div{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    min-height: 1000px;
+    min-width: 100px;
+  }
+
+  #mega-div-text1{
+    align-items: center;
+    margin-top: 30px;
+    color: wheat;
+  }
+
+  .maga-div1{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mega1-img1{
+    margin-top: 25px;
+    margin-right: 10px;
+    align-items: center;
+    height: 15px;
+  }
+
+  .mega1-heading{
+    margin-top: 20px;
+    color: white;
+  }
+
+  .mega1-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mega1-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #small-desc, #small-desc1{
+    color: white;
+  }
+  #small-desc1{
+    margin-top: 20px;
+  }
+  .sub-mega2{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Appetizers{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+  }
+
+  .view-menu{
+    color: wheat;
+    text-decoration: none;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  .view-menu:hover{
+    color: white;
+  }
+
+  .mega-div2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mega-div3{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .mega-div0{
+    display: none;
+  }
+  .mega-div4{
+    display: none;
+  }
+
+  #section3-txt1{
+    margin-top: 25px;
+  }
+
+  #section3-button{
+    margin-bottom: 35px;
+  }
+
+  .section3-mainimg{
+    height: 60vh;
+    width: 70vw;
+    margin-bottom: 90px;
+  }
+
+  #section3-title{
+    font-size: 40px;
+  }
+
+  #section3-subtxt{
+    font-size: 16px;
+  }
+
+  #call{
+    font-size: 18px;
+  }
+
+  #book-number{
+    font-size: 24px;
+  }
+
+  #section3-button{
+    width: 180px;
+  height: 58px;
+  }
+
+  .sub-section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section3-mainimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32%;
+    width: 32%;
+  }
+
+  #section3-mainimg{
+    margin-right: 10px;
+    height: 40vh;
+    width: 80vw;
+  }
+
+  .big-rs{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .section4-ls{
+    height: 10%;
+    width: 100%
+  }
+
+  .section4-rs{
+    width: 100%;
+  }
+
+  .rs-div2{
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rs-div3{
+    align-items: center;
+    justify-content: center;
+  }
+
+  #rs-div2-heading{
+    text-align: center;
+  }
+
+  #res-div3-para{
+    align-items: center;
+    text-align: center;
+  }
+
+  .rs-div4{
+    padding-left: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .div4-butt{
+    display: none;
+  }
+
+  .div4-butt2{
+    display: block;
+  }
+
+  #div4-butt2{
+    margin-bottom: 50px;
+    color: wheat;
+    margin-top: 35px;
+    border: 3px solid wheat;
+    width: 160px;
+    height: 54px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+  }
+
+  #div4-butt2:hover{
+    font-weight: bolder;
+    background-color: wheat;
+    color: rgb(25, 25, 25);
+  }
+
+  .item1-desc1{
+      display: flex;
+      flex-direction: row;
+      gap: 12px;
+    }
+  
+    .item2-desc2{
+      display: flex;
+      flex-direction: row;
+      gap: 53px;
+    }
+  
+    .item3-desc3{
+      display: flex;
+      flex-direction: row;
+      gap: 77px;
+    }
+  
+    .item4-desc4{
+      display: flex;
+      flex-direction: row;
+      gap: 85px;
+    }
+  
+    .item5-desc5{
+      display: flex;
+      flex-direction: row;
+      gap: 47px;
+    }
+  
+    .item6-desc6{
+      display: flex;
+      flex-direction: row;
+      gap: 70px;
+    }
+
+    .warpper-item{
+      gap: 5px;
+    }
+
+    #menu-name{
+      font-size: 20px;
+    }
+    #contents{
+      font-size: 13px;
+    }
+    #menu-price{
+      font-size: 18px;
+    }
+
+    #actual-review{
+      text-align: center;
+      font-size: 22px;
+    }
+    #quotes{
+      font-size: 22px;
+    }
+    #person-name{
+      font-size: 15px;
+    }
+
+    .reservation-div{
+      flex-direction: column;
+    }
+    .reservation-form{
+      min-width: 100%;
+    }
+}
