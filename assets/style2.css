@@ -136,6 +136,7 @@ body {
   }
 
   #Button-id{
+    border-color: transparent;
     font-weight: bold;
     background-color: wheat;
     height: 60px;
@@ -219,6 +220,7 @@ body {
     width: 200px;
     transition: width 2s;
     margin-left: 60px;
+    border-color: transparent;
   }
 
   #button2:hover{
@@ -982,3 +984,215 @@ body {
     color: rgb(96, 96, 96);
   }
 
+  .strenght-section{
+    background-image: url(../assets/images/shape-6.png);
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+
+  .strenght-text{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .strength-uppertxt .strenght-seperator .strenght-main{
+    text-align: center;
+    justify-content: center;
+  }
+
+  #strength-uppertxt{
+    font-size: 22px;
+    color: white;
+  }
+  #strength-seperator{
+    width: 160px;
+  }
+  #strength-main{
+    font-size: 70px;
+    color: white;
+  }
+
+  .strength-cards{
+    margin-top: -100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .cards-group1{
+    width: 40%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .cards-group2{
+    width: 40%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card{
+    gap: 13px;
+    height: 230px;
+    width: 230px;
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #card1-text{
+    color: rgb(128, 128, 128);
+  }
+  #card2-text{
+    color: rgb(128, 128, 128);
+  }
+  #card3-text{
+    color: rgb(128, 128, 128);
+  }
+  #card4-text{
+    color: rgb(128, 128, 128);
+  }
+
+  #card1-title{
+    font-size: 20px;
+    color: white;
+  }
+  #card2-title{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
+  #card3-title{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
+  #card4-title{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
+
+  .card-img{
+    perspective: 400px; /* Creates 3D perspective */
+  }
+  
+  .card-img img {
+    /* Center the image within the container */
+    display: block;
+    margin: 0 auto;
+    transform-style: preserve-3d; /* Preserves 3D context for backface-visibility */
+    backface-visibility: hidden; /* Prevents flickering on backside */
+    transition: transform 0.5s ease-in-out; /* Smooth transition animation */
+  }
+  
+  .card-img:hover img {
+    transform: rotateY(360deg); /* Rotates 360 degrees on hover */
+  }
+
+.footer-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 800px;
+  background-image: url(../assets/images/footer-bg.jpg);
+  mask-repeat: no-repeat;
+  gap: 30px;
+}
+
+.footer-form{
+  display: flex;
+  flex-direction: row;
+  height: 650px;
+  width: 500px;
+  background-color: #000000;
+}
+
+.footer-left{
+  display: flex;
+  background-image: url(../assets/images/footer-form-pattern.svg);
+  width: 5%;
+}
+
+.footer-middle{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(../assets/images/footer-form-bg.png);
+  width: 90%;
+}
+
+.footer-right{
+  display: flex;
+  background-image: url(../assets/images/footer-form-pattern.svg);
+  width: 5%;
+}
+
+#footerinfo{
+  text-align: center;
+  color: rgb(165, 164, 164);
+}
+
+#footer-news{
+  text-align: center;
+  color: white;
+}
+
+.footer-heading{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footerinfo{
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-input{
+  display: flex;
+  flex-direction: row;
+}
+
+#foter-input1{
+  border-color: transparent;
+  text-align:start;
+  width: 190px;
+  height: 40px;
+  color: white;
+  background-color: rgb(25, 25, 25);
+}
+#footer-button{
+  background-color: wheat;
+  font-weight: bold;
+  color: black;
+  height: 40px;
+  width: 120px;
+}
+#footer-button:hover{
+  border-color: wheat;
+  color: wheat;
+  background-color: #000000;
+}
+#last-words{
+  color: rgb(128, 128, 128);
+}
+#lastlink{
+  color: wheat;
+}
+  
